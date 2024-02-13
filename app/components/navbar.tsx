@@ -43,12 +43,12 @@ export const Navbar = (props: Props) => {
             className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box "
           >
             <li>
-              <a href="/resume/Ahmed_Khaled_Web_Resume.pdf" download>
+              <a href="/resume/Ahmed Khaled Resume web.pdf" download>
                 Web
               </a>
             </li>
             <li>
-              <a href="/resume/Ahmed_Khaled_Mobile_Resume.pdf" download>
+              <a href="/resume/Ahmed Khaled Resume mobile.pdf" download>
                 Mobile
               </a>
             </li>
