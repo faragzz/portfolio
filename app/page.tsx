@@ -7,11 +7,13 @@ import Skills from "./components/skills";
 export default function Home() {
   return (
     <div className="bg-gray-200 h-full">
-      <Navbar />
-      <About />
-      <Skills />
-      <Description/>
-      {/* <Footer/> */}
+      <div className="flex flex-col">
+        <Navbar />
+        <About />
+        <Skills />
+        <Description />
+        <Footer />
+      </div>
     </div>
   );
 }

@@ -5,9 +5,8 @@ import React from "react";
 type Props = {};
 
 export const Navbar = (props: Props) => {
-  const imgSrc = "/assets/a.jpg";
   return (
-    <div className="flex bg-slate-200 z-2 shadow-lg  py-4 bg-opacity-80">
+    <div className="fixed flex bg-slate-200 z-10 shadow-lg  py-4 bg-opacity-95 w-full top-0">
       <div className="ml-4 text-3xl">
         <Image
           className="rounded-lg"

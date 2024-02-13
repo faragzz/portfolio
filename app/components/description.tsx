@@ -27,7 +27,7 @@ export const Description = (props: Props) => {
       <div className="flex justify-between text-black ml-12 mt-10">
         <div className="flex flex-col gap-12">
           <div>
-            <p className="text-2xl font-medium ml-">My Journey:</p>
+            <p className="text-2xl font-medium">My Journey:</p>
             <ul className="mt-2">
               <li>
                 I started my journey as a mobile developer, mastering Kotlin,

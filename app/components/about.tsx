@@ -20,7 +20,7 @@ export default function About({}: Props) {
   };
 
   return (
-    <div className="flex flex-col xl:flex-row justify-between items-center w-full mt-5">
+    <div className="flex flex-col xl:flex-row justify-between items-center w-full mt-32">
       <div className="flex flex-col text-black ml-12 mr-10">
         <div className="flex items-center">
           <p className="text-5xl text-black ml-4">I'm a </p>
