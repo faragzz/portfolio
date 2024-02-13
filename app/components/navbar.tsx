@@ -24,10 +24,10 @@ export const Navbar = (props: Props) => {
           Home
         </Link>
         <Link className="hover:font-bold" href={""}>
-          About
+          Skills
         </Link>
         <Link className="hover:font-bold" href={""}>
-          skills
+          About
         </Link>
         <Link className="hover:font-bold" href={""}>
           contact
