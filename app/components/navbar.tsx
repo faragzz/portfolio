@@ -20,7 +20,7 @@ export const Navbar = (props: Props) => {
 
       {/* left */}
 
-      <div className=" flex gap-4 items-center  text-black">
+      <div className=" flex gap-2 xl:gap-4 items-center  text-black">
         <ScrollLink to="home" smooth={true} duration={500} offset={-128}>
           <button> Home</button>
         </ScrollLink>
