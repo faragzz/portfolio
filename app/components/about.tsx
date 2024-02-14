@@ -32,7 +32,7 @@ export default function About({}: Props) {
         </div>
         <br />
         <div className="text-md">
-        I am Ahmed Khaled, a passionate and ambitious developer with extensive experience in building web, mobile, and backend applications. With a solid foundation in React, Next.js, Kotlin, Flutter, React Native, and NestJS, I am well-equipped to handle diverse projects and challenges.
+        I am Ahmed Khaled Farag, a passionate and ambitious developer with extensive experience in building web, mobile, and backend applications. With a solid foundation in React, Next.js, Kotlin, Flutter, React Native, and NestJS, I am well-equipped to handle diverse projects and challenges.
         </div>
       </div>
       <div className="mr-12">
