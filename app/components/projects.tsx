@@ -17,7 +17,7 @@ export const Projects = () => {
   return (
     <div
       id="projects"
-      className="flex flex-col justify-center items-center w-full"
+      className="flex flex-col justify-center items-center w-full mt-10"
     >
       <p className="text-4xl text-black text-center font-bold">Projects</p>
 

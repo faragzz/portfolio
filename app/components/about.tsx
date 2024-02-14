@@ -24,10 +24,10 @@ export default function About({}: Props) {
       id="home"
       className="xl:container mx-auto flex flex-col xl:flex-row justify-between items-center w-full mt-32"
     >
-      <div className="flex flex-col text-black ml-12 mr-10">
+      <div className="flex flex-col text-black ml-12 mr-10 ">
         <div className="flex items-center">
           <br />
-          <p className=" text-2xl xl:text-5xl text-black ml-4">I&apos;m a </p>
+          <p className=" text-2xl xl:text-5xl text-black">I&apos;m a </p>
           <span className="font-bold text-2xl xl:text-5xl text-black ml-4">
             {text}
           </span>
