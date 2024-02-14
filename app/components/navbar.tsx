@@ -7,11 +7,11 @@ type Props = {};
 
 export const Navbar = (props: Props) => {
   return (
-    <div className="fixed flex bg-slate-200 z-10 shadow-lg  py-4 bg-opacity-95 w-full top-0">
+    <div className="fixed flex bg-slate-200 z-10 shadow-lg  py-2 bg-opacity-95 w-full top-0">
       <div className="ml-4 text-3xl">
         <Image
           className="rounded-lg mr-12"
-          src={"/assets/a.jpg"}
+          src={"/assets/a_logo.png"}
           alt={"Logo"}
           width={60}
           height={50}
@@ -26,6 +26,9 @@ export const Navbar = (props: Props) => {
         </ScrollLink>
         <ScrollLink to="skills" smooth={true} duration={500} offset={-100}>
           <button> Skills</button>
+        </ScrollLink>
+        <ScrollLink to="projects" smooth={true} duration={500} offset={-100}>
+          <button> Projects</button>
         </ScrollLink>
         <ScrollLink to="about" smooth={true} duration={500} offset={-100}>
           <button> About</button>
