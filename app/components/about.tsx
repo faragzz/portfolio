@@ -28,7 +28,7 @@ export default function About({}: Props) {
         <div className="flex items-center">
           <br />
           <p className="text-5xl text-black ml-4">I&apos;m a </p>
-          <span className="font-bold text-5xl text-black ml-4">{text}</span>
+          <span className="font-bold text-5xl sm:text-3xl text-black ml-4">{text}</span>
           <span className="text-black text-5xl">
             <Cursor />
           </span>
