@@ -72,13 +72,13 @@ export const Projects = () => {
           </div>
           <button
             className="absolute z-2 mt-44 left-10 transform -translate-y-1/2 bg-black bg-opacity-50 px-4 py-2 rounded-lg"
-            onClick={() => scroll(-700)}
+            onClick={() => scroll(-500)}
           >
             {"<"}
           </button>
           <button
             className="absolute z-2 mt-44 right-10 transform -translate-y-1/2 bg-black bg-opacity-50 px-4 py-2 rounded-lg "
-            onClick={() => scroll(700)}
+            onClick={() => scroll(500)}
           >
             {">"}
           </button>
