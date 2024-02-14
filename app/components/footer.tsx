@@ -6,7 +6,10 @@ type Props = {};
 
 export const Footer = (props: Props) => {
   return (
-    <footer id="contact" className="footer p-10 bg-neutral text-neutral-content mt-20">
+    <footer
+      id="contact"
+      className="footer p-10 bg-neutral text-neutral-content mt-20"
+    >
       <Image
         className="rounded-md"
         src={"/assets/a.jpg"}
@@ -16,7 +19,7 @@ export const Footer = (props: Props) => {
       />
 
       <nav>
-        <h6 className="footer-title">contact me</h6>
+        <h6 className="footer-title w-full text-center">contact me</h6>
         <div className="grid grid-cols-4 gap-4">
           <Link href={"mailto:a.khaled46462@gmail.com"} target="_blank">
             <Image

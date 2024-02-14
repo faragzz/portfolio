@@ -45,14 +45,6 @@ export const Projects = () => {
               width={900}
             />
           </div>
-          <div className="carousel-item">
-            <Image
-              src={"/assets/projects/portfolio.png"}
-              alt={"Project Image"}
-              height={800}
-              width={900}
-            />
-          </div>
           <div className="carousel-item px-40">
             <Image
               className="ml-10"
