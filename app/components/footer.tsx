@@ -6,7 +6,7 @@ type Props = {};
 
 export const Footer = (props: Props) => {
   return (
-    <footer className="footer p-10 bg-neutral text-neutral-content mt-20">
+    <footer id="contact" className="footer p-10 bg-neutral text-neutral-content mt-20">
       <Image
         className="rounded-md"
         src={"/assets/a.jpg"}

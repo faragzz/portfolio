@@ -15,7 +15,7 @@ export const Description = (props: Props) => {
   };
 
   return (
-    <div className="mt-10">
+    <div id="about" className="mt-10">
       <p className="text-4xl text-black text-center font-bold ">About Me</p>
 
       {isMobile && (
@@ -63,8 +63,8 @@ export const Description = (props: Props) => {
           </div>
           <div>
             <p className="font-medium text-center">
-              If you're looking for a skilled and dedicated full-stack developer
-              to bring your ideas to life, let's connect! I am excited to
+              If you&apos;re looking for a skilled and dedicated full-stack developer
+              to bring your ideas to life, let&apos;s connect! I am excited to
               collaborate on your next project and turn your vision into
               reality.
             </p>
