@@ -22,7 +22,7 @@ export default function About({}: Props) {
   return (
     <div
       id="home"
-      className="xl:container mx-auto flex flex-col xl:flex-row justify-between items-center w-full mt-32"
+      className="xl:container flex flex-col xl:flex-row justify-between items-center pt-32 mx-auto bg-gray-200"
     >
       <div className="flex flex-col text-black ml-12 mr-10 ">
         <div className="flex items-center">

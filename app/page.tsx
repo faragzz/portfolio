@@ -8,15 +8,13 @@ import Skills from "./components/skills";
 
 export default function Home() {
   return (
-    <div className="bg-gray-200 h-full">
-      <div className="flex flex-col">
-        <Navbar />
-        <About />
-        <Skills />
-        <Projects />
-        <Description />
-        <Footer />
-      </div>
+    <div className="flex flex-col bg-gray-200 w-fit xl:w-screen">
+      <Navbar />
+      <About />
+      <Skills />
+      <Projects />
+      <Description />
+      <Footer />
     </div>
   );
 }

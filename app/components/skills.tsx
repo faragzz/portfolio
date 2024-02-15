@@ -12,7 +12,7 @@ export default function Skills({}: Props) {
     animationData: animationData,
   };
   return (
-    <div id="skills" className="xl:container mx-auto mt-20">
+    <div id="skills" className="xl:container mx-auto mt-20 mx-auto ">
       <p className="text-4xl text-black text-center font-bold ">Skills</p>
       {isMobile && (
         <div>
