@@ -17,7 +17,9 @@ export const Footer = (props: Props) => {
         />
 
         <nav className="mr-12">
-          <h6 className="footer-title w-full text-center">contact me</h6>
+          <h6 className="footer-title w-full text-center text-gray-100">
+            contact me
+          </h6>
           <div className="flex gap-8">
             <Link href={"mailto:a.khaled46462@gmail.com"} target="_blank">
               <Image
@@ -54,7 +56,7 @@ export const Footer = (props: Props) => {
                 width={50}
                 height={50}
               />
-              <p className="text-white">+201159551489</p>
+              <p className="text-gray-300">+201159551489</p>
             </div>
           </div>
         </nav>
