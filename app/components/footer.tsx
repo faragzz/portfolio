@@ -54,7 +54,7 @@ export const Footer = (props: Props) => {
                 width={50}
                 height={50}
               />
-              <p>+201159551489</p>
+              <p className="text-white">+201159551489</p>
             </div>
           </div>
         </nav>
