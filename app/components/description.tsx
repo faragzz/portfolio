@@ -15,7 +15,7 @@ export const Description = (props: Props) => {
   };
 
   return (
-    <div id="about" className="mt-10 xl:container mx-auto">
+    <div id="about" className="mt-10 xl:container">
       <p className="text-4xl text-black text-center font-bold ">About Me</p>
 
       {isMobile && (

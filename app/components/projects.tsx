@@ -20,7 +20,7 @@ export const Projects = () => {
   return (
     <div
       id="projects"
-      className="flex flex-col justify-center items-center mx-auto bg-gray-200 mt-10"
+      className="flex flex-col justify-center items-center bg-gray-200 mt-10"
     >
       <p className="text-4xl text-black text-center font-bold">Projects</p>
 
