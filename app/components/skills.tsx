@@ -22,7 +22,7 @@ export default function Skills({}: Props) {
       <div className="flex justify-between text-black ml-12 mt-10">
         <div className="flex flex-col gap-12">
           <div>
-            <p className="text-2xl font-medium ml-">Web Development</p>
+            <p className="text-2xl font-medium">Web Development</p>
             <ul className="mt-2">
               <li>
                 Proficient in React.js and Next.js for building fast, scalable,
@@ -35,7 +35,7 @@ export default function Skills({}: Props) {
             </ul>
           </div>
           <div>
-            <p className="text-2xl font-medium ml-">Mobile Development</p>
+            <p className="text-2xl font-medium">Mobile Development</p>
             <ul className="mt-2">
               <li>
                 Skilled in Kotlin for native Android app development, ensuring
@@ -49,7 +49,7 @@ export default function Skills({}: Props) {
             </ul>
           </div>
           <div>
-            <p className="text-2xl font-medium ml-">Backend Development</p>
+            <p className="text-2xl font-medium">Backend Development</p>
             <ul className="mt-2">
               <li>
                 Expertise in NestJS, a modern and efficient Node.js framework,
