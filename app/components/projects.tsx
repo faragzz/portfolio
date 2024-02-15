@@ -11,7 +11,7 @@ export const Projects = () => {
     if (carouselRef.current) {
       carouselRef.current.scrollTo({
         left: carouselRef.current.scrollLeft + scrollOffset,
-        behavior: "smooth", // Add smooth scrolling behavior
+        behavior: "smooth",
       });
       console.log("Scrolling...");
     }
@@ -26,7 +26,7 @@ export const Projects = () => {
 
       {isMobile ? (
         <div
-          className="flex px-10 py-10 carousel carousel-center  p-4 space-x-4 bg-neutral w-full bg-neutral bg-opacity-10"
+          className="flex px-10 py-10 carousel carousel-center  p-4 space-x-4 bg-neutral w-full bg-opacity-10 mt-4"
           style={{ height: "500px" }}
         >
           <div className="carousel-item">
