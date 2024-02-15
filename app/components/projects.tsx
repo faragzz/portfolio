@@ -22,7 +22,7 @@ export const Projects = () => {
       <p className="text-4xl text-black text-center font-bold">Projects</p>
 
       <div
-        className="mt-10 overflow-x-auto bg-neutral bg-opacity-10 overflow-x-hidden"
+        className="mt-10 overflow-x-auto bg-neutral bg-opacity-10 "
         ref={carouselRef}
       >
         <div
